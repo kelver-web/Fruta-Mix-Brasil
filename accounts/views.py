@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('Aqui será a página de login')
+    return render(request, 'login.html')
